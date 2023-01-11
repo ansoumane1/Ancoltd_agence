@@ -1,0 +1,104 @@
+{% extends 'base.html' %}
+
+<br />
+{% block title %} Nous contacter {% endblock title %}
+
+
+
+{% block content %}
+<div class="contact_home ">
+  <div class="container text-center">
+    <div class="row justify-content-center">
+      <div class="col-md-10 heading-primary">
+          <h1 class="h2 text-white display-6 heading-primary--main">
+            Contactez ANCOLTD AGENCE DIGITALE!
+
+      </div>
+    </div>
+  </div>
+</div>
+{% if submitted %}
+<div class="col-12 col-md-6 mt-4 m-auto justify-content-center">
+  <div class="alert alert-success alert-dismissible" >
+    <h1 class="text-lower">Cher(e) {{customer_name}}</h1>
+    <p>
+      Votre Message à été bien envoyé
+      <br><br>
+      Nous voulions vous remercier sincèrement pour avoir pris le temps de nous contacter. Nous sommes ravis de savoir que vous êtes intéressé(e) par les services de notre agence digitale.
+      <br>
+      Un membre de notre équipe vous répondra dans les meilleurs délais.
+    </p>
+    <button type="button" class='close btn-secondary' data-dismiss='alert'>
+      <span >&times;</span>
+    </button>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<div class="contact_retour justify-content-center">
+  <a href="{% url 'contact' %}" class="btn btn--brand">retour</a>
+</div>
+{% else %}
+<section class="contact">
+  <div class="container-fluid">
+    <div class="row justify-content-center">
+      <div class="col-12 section-intro">
+         <h1 class="h3">Contactez notre agence digitale</h1>
+         <div class="hline mb-5"></div>
+         <p> Veuillez entrer les détails de votre demande. Un membre de notre équipe vous répondra dans les meilleurs délais.</p>
+      </div>  
+   </div>
+    <div class="col-12">
+      <form action="{% url 'contact' %}" method='post'>
+        <div class="row_group">
+
+          <div class="input-group">
+            <input type="text"  name='nom' id='e-nom' required >
+            <label for="e-nom">Nom*</label>
+          </div>
+          <div class="input-group">
+            <input type="email"  name='email' id='e-mail' required>
+            <label for="e-mail">Email*</label>
+          </div>
+        </div>
+
+        <div class="row_group">
+            <div class="input-group">
+              <input type="text"  name='telephone' id='e-telephone' required>
+              <label for="e-telephone">Tél*</label>
+            </div>
+            <div class="input-group">
+              <input type="text"  name='sujet' id='e-sujet' required>
+              <label for="e-sujet">sujet*</label>
+            </div>
+        </div>
+        <div class="input-group">
+            <textarea name="message" id="e-message" cols="30" rows="10" required></textarea>
+            <label for="e-message">Votre message*</label>
+        </div>
+        <button type='submit' class="btn">Envoyer</button>
+        {% csrf_token %}
+      </form>
+    </div>
+
+  </div>
+</section>
+
+
+{% endif %}
+<br />
+<section id="cta" class="py-5">
+  <div class="container py-4">
+     <div class="row cta_row">
+        <div class="col-md-6 ">
+           <h3 class="text-white cta_text">Construisons quelque chose d'exceptionnel.</h3>
+        </div>
+        <div class="col-auto">
+           <a href="#" class="btn  btn-light ">Commençons</a>
+        </div>
+     </div>
+  </div>
+</section>
+{% endblock content %}

@@ -1,0 +1,51 @@
+{% extends "base.html" %}
+<br />
+{% load bootstrap4 %}
+<br />
+{% block title %}Se connecter{% endblock title %}
+<br />
+{% block sidenav %}
+<li><a href="/">Accueil</a></li>
+{% endblock sidenav %}
+<br />
+{% block content %}
+<div class="container-fluid mt-5 mb-3">
+  <div class="row justify-content-center">
+    <div class="col-10  col-lg-6 ">
+      <div class="card rounded">
+        <div class="card-body">
+          <h4 class="text-center text-uppercase mb-3">
+            <b>connectez-vous</b>
+          </h4>
+          <p class="text-center">connectez vous pour soumettre un devis</p>
+          <form method="post" action="{% url 'login' %}">
+            {% bootstrap_form_errors form %}
+            <br />
+            {% bootstrap_label "nom d'utilisateur" %}
+            <br />
+            {% bootstrap_field form.username show_label=False %}
+            <br />
+            {% bootstrap_label "mot de passe "%}
+            <br />
+            {% bootstrap_field form.password show_label=False %}
+
+            <input
+              type="submit"
+              value="Connecter"
+              class="btn btn-secondary btn-block"
+            />
+
+            <p>
+              Vous n'êtes pas encore inscrit ?
+              <a href="{% url 'register'%}">Enregistrez vous</a>
+            </p>
+            <input type="hidden" name="next" value="{{ next }}" />
+            {% csrf_token %}
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% endblock content %}

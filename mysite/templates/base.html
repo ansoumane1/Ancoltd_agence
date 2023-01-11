@@ -1,0 +1,84 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{% block title %}Untitle Document{% endblock title %}</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}" type="text/css" />
+    <link rel="stylesheet" href="{% static 'css/boxicons.min.css' %}" type="text/css" />
+   
+
+  </head>
+  <body data-bs-spy="scroll" data-bs-target=".navbar">
+    {% include 'navigation.html' %}
+    {% block content %} 
+    
+    {% endblock content %}
+   <footer>
+      <div class="footer-top">
+         <div class="container">
+            <div class="row gy-5">
+               <div class="col-md-4 mb-3">
+                  <h4 class="logo-text">ANCOLTD</h4>
+                  <p>Nous sommes très soucieux des nouvelles tendances en matière de design et nous suivons de très près l’évolution des nouvelles technologies du Web. Nous désirons vous offrir l’opportunité d’avoir un site web à la hauteur de vos ambitions avec un prix très correct</p>
+                  <div class="social-icons">
+                     <a href="#"><i class="bx bxl-facebook"></i></a>
+                     <a href="#"><i class="bx bxl-twitter"></i></a>
+                     <a href="#"><i class="bx bxl-instagram"></i></a>
+                     <a href="#"><i class="bx bxl-github"></i></a>
+                  </div>
+               </div>
+               <div class="col-md-2 mb-3">
+                  <h5 class="title-sm">Lien Rapide</h5>
+                  <div class="footer-links">
+                     <a href="#">ACCUEIL</a>
+                     <a href="#">SERVICES</a>
+                     <a href="#">NOS TARIFS</a>
+                     <a href="#">NOUS CONTACTER</a>
+                  </div>
+               </div>
+               <div class="col-md-2 mb-3">
+                  <h5 class="title-sm">Informations</h5>
+                  <div class="footer-links">
+                     {% for page_link in page_links %}
+                    
+                     <a href="{% url 'page' page_link.permalink %}">{{page_link.title}}</a>
+                    
+                     {% endfor %}
+                  </div>
+               </div>
+               <div class="col-md-2 mb-3">
+                  <h5 class="title-sm">Contact</h5>
+                  <div class="footer-links">
+                     <p class="mb">71-75 Shelton Street
+                        Covent Garden
+                        London
+                        WC2H 9JQ
+                        UNITED KINGDOM</p>
+                     <p class="mb-">+212766469843</p>
+                     <p class="mb">ansoucompany@gmail.com</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <div class="footer-bottom mb-3">
+         <div class="container">
+            <div class="row justify-content-between gy-3">
+               <div class="col-md-6">
+                  <p class="mb-0">© {{format_date|date:'Y'}}- ANCOLTD-Tous droits réservés</p>
+               </div>
+               <div class="col-auto">
+                  <p class="mb-0">ANSOU COMPANY LTD</p>
+               </div>
+            </div>
+         </div>
+      </div>
+   </footer>
+   <script src="{% static 'js/jquery-3.3.1.slim.min.js' %}"></script>
+   <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>    
+  </body>
+</html>
