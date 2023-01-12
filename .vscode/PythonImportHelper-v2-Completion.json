@@ -559,7 +559,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -568,7 +568,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -577,7 +577,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "EMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -586,7 +586,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -595,7 +595,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -604,7 +604,16 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True",
+        "peekOfCode": "EMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "detail": "mysite.settings",
+        "documentation": {}
+    },
+    {
+        "label": "CSRF_TRUSTED_ORIGINS",
+        "kind": 5,
+        "importPath": "mysite.settings",
+        "description": "mysite.settings",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
         "detail": "mysite.settings",
         "documentation": {}
     },

@@ -146,3 +146,5 @@ EMAIL_HOST_USER = 'ansoucompany@gmail.com'
 EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
+
+CSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']
