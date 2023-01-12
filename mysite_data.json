@@ -40,6 +40,43 @@
   }
 },
 {
+  "model": "myapp.tarif",
+  "pk": 1,
+  "fields": {
+    "title": "Pack Vitrine",
+    "description": "<li>Site Statique</li>\r\n<li>Interface d’administration intuitive</li>\r\n<li>Design responsive & moderne</li>\r\n<li>3 pages web</li>\r\n<li>Nom de domaine offert</li>\r\n<li>Hébergement inclus</li>\r\n<li>Certificat SSL</li>\r\n<li>Code optimisé SEO</li>\r\n<li>Formulaire de contact</li>\r\n<li>Intégration de Google Map</li>\r\n<li>Garantie 1 an MAJ *</li>\r\n<li>Rapports des statistiques et analyses</li>",
+    "prix": "350"
+  }
+},
+{
+  "model": "myapp.tarif",
+  "pk": 2,
+  "fields": {
+    "title": "Pack intégral",
+    "description": "<li>Site dynamique</li>\r\n<li>Interface d’administration intuitive</li>\r\n<li>Design responsive & moderne</li>\r\n<li>Pages web illimitées</li>\r\n<li>Nom de domaine offert</li>\r\n<li>Hebergement inclus</li>\r\n<li>Certificat SSL</li>\r\n<li>Code optimisé SEO</li>\r\n<li>Formulaire de contact</li>\r\n<li>Intégration de Google Map</li>\r\n<li>10 comptes mail professionnels</li>\r\n\r\n<li>Garantie 1 an MAJ</li>\r\n<li>Rapports des statistiques et analyses</li>",
+    "prix": "500"
+  }
+},
+{
+  "model": "myapp.tarif",
+  "pk": 3,
+  "fields": {
+    "title": "Pack e-commerce",
+    "description": "<li>Site dynamique</li>\r\n<li>Interface d’administration intuitive</li>\r\n<li>Design responsive & moderne</li>\r\n<li>Pages web illimitées</li>\r\n<li>Nom de domaine offert</li>\r\n<li>Hebergement inclus</li>\r\n<li>Certificat SSL</li>\r\n<li>Code optimisé SEO</li>\r\n<li>Formulaire de contact</li>\r\n<li>Intégration de Google Map</li>\r\n<li>10 comptes mail professionnels</li>\r\n<li>Fonctions E-commerce</li>\r\n<li>Garantie 2 ans MAJ / DEV</li>\r\n<li>Rapports des statistiques et analyses</li>",
+    "prix": "750"
+  }
+},
+{
+  "model": "pages.page",
+  "pk": 1,
+  "fields": {
+    "title": "Conditions Générales de Ventes",
+    "permalink": "condition-generale-des-ventes",
+    "update_date": "2023-01-11",
+    "bodytext": "<h3>1– Objet</h3>\r\n<p>\r\nLe présent contrat a pour objet de définir les termes et conditions ainsi que les modalités selon lesquelles l’agence ANCOLTD fournit les prestations au client. Lors de la validation de sa commande, sous forme de signature ou mail valant Bon pour Accord, le client déclare accepter sans réserve les termes de ladite commande ainsi que l’intégralité des présentes conditions générales de vente.\r\n</p>\r\n\r\n<h3>2 – Prestations</h3>\r\n<p>\r\nL’agence ANCOLTD met à disposition du client ses compétences en terme de création web, édition, vidéo et d’événementiel. La prestation comprend tout ce qui est explicitement listé, toute prestation qui ne figure pas dans la présente proposition fera l’objet d’un devis complémentaire gratuit.\r\n</p>\r\n\r\n<h3>3– Paiement</h3>\r\n<p>\r\nANCOLTD fixe le prix de ses prestations en accord avec le client lors de la réalisation du devis. Le prix est toujours exprimé en dollars americain hors taxe. Le client s’engage à verser 50% du prix à la signature du bon de commande et le solde à la livraison. Le paiement peut être effectué par chèque ou virement.\r\nLe client s’engage à régler les prestations demandées dans un délai de 15 jours dès réception de la facture.\r\n</p>\r\n<br> \r\n<br> \r\n\r\n<h3>4 – Retard</h3>\r\n<p>\r\nTout retard de paiement, soit à compter du 16éme jour après réception de la facture, donnera lieu à une suspension du site internet . Cette suspension sera levée 24h après la réception du paiement.\r\n</p>\r\n<br> \r\n<br> \r\n\r\n<h3>5 – Délais de livraison</h3>\r\n<p>\r\nLes délais de livraison des commandes réalisées par ANCOLTD ne sont donnés qu’à titre indicatif. ANCOLTD décline toute responsabilité en cas de retards éventuels. Le client ne peut se prévaloir d’aucun retard de livraison pour résilier la vente ou réclamer des dommages et intérêts.\r\n</p>\r\n<br> \r\n<br> \r\n\r\n<h3>6 – Propriété des contenus</h3>\r\n<p>\r\nJusqu’à ce que le client paye l’intégralité de la facture, tout objet de la présente commande reste la propriété de l’agence ANCOLTD. De ce fait, le client devient propriétaire de la prestation une fois seulement le paiement de la facture finale effectué. Toutefois même si plusieurs exemplaires de visuels ou de noms lui ont été présentés, le client ne peut être propriétaire que de celui validé par sa commande, les autres restants la propriété de l’agence ANCOLTD.\r\nEn devenant propriétaire, le client reconnaît et assume ainsi pleinement l’entière responsabilité des choix artistiques, des contenus textuels et visuels, figurant dans la commande réalisée par Corail. Le client autorise Corail à utiliser la réalisation de la commande à des fins purement démonstratives, plus particulièrement en ce qui concerne les contenus visuels et textuels.\r\n</p>\r\n<br> \r\n<br> \r\n<h3>7 – Responsabilité des contenus</h3>\r\n\r\n<p>Le client est prié de vérifier le travail dès réception. ANCOLTD décline toute responsabilité en cas d’erreur ou omissions au niveau de l’impression constatées après la validation du Bon à Tirer, celui-ci pouvant être validé par mail ou de visu par une signature.\r\nANCOLTD se dégage de toute responsabilité au niveau des contenus publiés par le client sur son site internet, que ce soit en termes de texte, d’image ou de vidéo.\r\nConcernant les textes fournis par le client, ceux-ci doivent être relus et corrigés par le client, aucune modification ou correction d’orthographe ne sera effectuée par ANCOLTD.</p>\r\n<br>\r\n<br> \r\n<h3>8 – Force majeure</h3>\r\n\r\n<p>Corail ne pourra être tenu pour responsable d’un délai non respecté pour cause de force majeure comme en particulier en cas de maladie, de grève, d’accident, d’incendie, de dégât des eaux, d’inondation, de tremblements de terre, de vol de matériel, d’attentat, d’accident, de guerre ou guerre civile, d’incident nucléaire ou tout autre fait ou circonstance ayant une cause externe ou imputable à un tiers, non évitable, empêchant ANCOLTD de répondre à ses obligations.</p>\r\n<br> \r\n<br> \r\n<h3>9 –  Clause résolutoire</h3>\r\n\r\n<p>Le client est en droit de mettre fin unilatéralement à la convention moyennant paiement d’une indemnité fixée à 30% du montant de la commande hors TVA. En cas d’annulation du contrat de vente, les logos, graphismes et noms de domaine élaborés pour le client reste la propriété de l’agence ANCOLTD.</p>\r\n<br>"
+  }
+},
+{
   "model": "admin.logentry",
   "pk": 1,
   "fields": {
@@ -102,6 +139,201 @@
     "object_repr": "Le développement web",
     "action_flag": 1,
     "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2023-01-10T17:31:54.327Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pack Vitrine",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2023-01-10T17:37:29.179Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pack Vitrine",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2023-01-10T18:07:21.546Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pack Vitrine",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Description\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2023-01-10T18:13:00.960Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Pack intégral",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2023-01-10T18:13:11.627Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Pack intégral",
+    "action_flag": 2,
+    "change_message": "[]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2023-01-10T18:13:25.227Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pack Vitrine",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2023-01-10T18:18:32.695Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Pack e-commerce",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 13,
+  "fields": {
+    "action_time": "2023-01-10T18:35:23.217Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "1",
+    "object_repr": "Pack Vitrine",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 14,
+  "fields": {
+    "action_time": "2023-01-10T18:35:37.440Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "2",
+    "object_repr": "Pack intégral",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 15,
+  "fields": {
+    "action_time": "2023-01-10T18:35:45.544Z",
+    "user": 1,
+    "content_type": 9,
+    "object_id": "3",
+    "object_repr": "Pack e-commerce",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Prix\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 16,
+  "fields": {
+    "action_time": "2023-01-10T23:35:53.778Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "condition générale des ventes",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 17,
+  "fields": {
+    "action_time": "2023-01-10T23:43:48.953Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Conditions Générales de Ventes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Title\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 18,
+  "fields": {
+    "action_time": "2023-01-10T23:58:06.479Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Conditions Générales de Ventes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Bodytext\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 19,
+  "fields": {
+    "action_time": "2023-01-11T00:44:41.253Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Conditions Générales de Ventes",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Bodytext\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 20,
+  "fields": {
+    "action_time": "2023-01-11T01:29:21.362Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "Conditions Générales de Ventes",
+    "action_flag": 2,
+    "change_message": "[]"
   }
 },
 {
@@ -501,11 +733,47 @@
   }
 },
 {
+  "model": "auth.permission",
+  "pk": 45,
+  "fields": {
+    "name": "Can add page",
+    "content_type": 10,
+    "codename": "add_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 46,
+  "fields": {
+    "name": "Can change page",
+    "content_type": 10,
+    "codename": "change_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 47,
+  "fields": {
+    "name": "Can delete page",
+    "content_type": 10,
+    "codename": "delete_page"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 48,
+  "fields": {
+    "name": "Can view page",
+    "content_type": 10,
+    "codename": "view_page"
+  }
+},
+{
   "model": "auth.user",
   "pk": 1,
   "fields": {
     "password": "pbkdf2_sha256$390000$7st0zjV0alnB0IftqYLcC2$ZQdeHVpLSpVVI7f/dJ8nv4Kh1SGlm+IvhZTLI7r28f0=",
-    "last_login": "2023-01-08T14:23:25.327Z",
+    "last_login": "2023-01-10T23:19:55.673Z",
     "is_superuser": true,
     "username": "admin",
     "first_name": "",
@@ -591,6 +859,14 @@
   }
 },
 {
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "pages",
+    "model": "page"
+  }
+},
+{
   "model": "sessions.session",
   "pk": "2o953qietmh8u2i438oxhhpi9hjzkpud",
   "fields": {
@@ -600,10 +876,34 @@
 },
 {
   "model": "sessions.session",
+  "pk": "5xxttdukzwypkfqo3gz37py5mv1cg5je",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHdLQTw6N1vIMAuUjWQlPbU-O-2SQ96nHlvZhM-rEvxa-fZTySuAsTlt4shvbgegJ6hPppMrS7zFOWhyJN2eW_E79vp_h2U0Mu-jqAcJG0TKZ3QaLMnBLSKcTQ4mDjobJGdxWy1g1EZcjoqJAOZE0fx-QKxfDbz:1pFJSp:HQ-a7T34ArDyp1Zjb71PRAY2R1I0vlctXi-RWvLQu5o",
+    "expire_date": "2023-01-24T18:35:11.863Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "8sfjyezmhm2y0a8ipgzhhyes5dji2ocn",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHdLQTw6N1vIMAuUjWQlPbU-O-2SQ96nHlvZhM-rEvxa-fZTySuAsTlt4shvbgegJ6hPppMrS7zFOWhyJN2eW_E79vp_h2U0Mu-jqAcJG0TKZ3QaLMnBLSKcTQ4mDjobJGdxWy1g1EZcjoqJAOZE0fx-QKxfDbz:1pFICo:oojc72326SSaz_t5UhkBSndzmwPzGhNrjP_IbRk7AJE",
+    "expire_date": "2023-01-24T17:14:34.888Z"
+  }
+},
+{
+  "model": "sessions.session",
   "pk": "y1alwi5rafalyv45r9uvr5cawr6wlic4",
   "fields": {
     "session_data": ".eJxVjMEOwiAQRP-FsyHdLQTw6N1vIMAuUjWQlPbU-O-2SQ96nHlvZhM-rEvxa-fZTySuAsTlt4shvbgegJ6hPppMrS7zFOWhyJN2eW_E79vp_h2U0Mu-jqAcJG0TKZ3QaLMnBLSKcTQ4mDjobJGdxWy1g1EZcjoqJAOZE0fx-QKxfDbz:1pEWa5:p7P7d5PdtxjU9alR1c2XrlKtciLwZrJkeHo-5MMRfsA",
     "expire_date": "2023-01-22T14:23:25.339Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "zj80p4j8mmnw4dehbp395d014pomry2m",
+  "fields": {
+    "session_data": ".eJxVjMEOwiAQRP-FsyHdLQTw6N1vIMAuUjWQlPbU-O-2SQ96nHlvZhM-rEvxa-fZTySuAsTlt4shvbgegJ6hPppMrS7zFOWhyJN2eW_E79vp_h2U0Mu-jqAcJG0TKZ3QaLMnBLSKcTQ4mDjobJGdxWy1g1EZcjoqJAOZE0fx-QKxfDbz:1pFNuN:wXn8Z-aIClPqSEE4rgS65kBGmzV_IzOU8aH5VM_AVOA",
+    "expire_date": "2023-01-24T23:19:55.674Z"
   }
 }
 ]
