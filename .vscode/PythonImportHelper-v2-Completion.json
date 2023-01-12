@@ -406,7 +406,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'myapp.apps.MyappConfig',\n    'pages.apps.PagesConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = True\nALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -415,7 +415,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'myapp.apps.MyappConfig',\n    'pages.apps.PagesConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',",
+        "peekOfCode": "DEBUG = True\nALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -424,7 +424,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    'myapp.apps.MyappConfig',\n    'pages.apps.PagesConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "ALLOWED_HOSTS = ['web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -433,7 +433,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "INSTALLED_APPS = [\n    'myapp.apps.MyappConfig',\n    'pages.apps.PagesConfig',\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n]",
+        "peekOfCode": "INSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',\n    'myapp.apps.MyappConfig',\n    'pages.apps.PagesConfig',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -442,7 +442,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]\nROOT_URLCONF = 'mysite.urls'",
+        "peekOfCode": "MIDDLEWARE = [\n    'django.middleware.security.SecurityMiddleware',\n    \"whitenoise.middleware.WhiteNoiseMiddleware\",\n    'django.contrib.sessions.middleware.SessionMiddleware',\n    'django.middleware.common.CommonMiddleware',\n    'django.middleware.csrf.CsrfViewMiddleware',\n    'django.contrib.auth.middleware.AuthenticationMiddleware',\n    'django.contrib.messages.middleware.MessageMiddleware',\n    'django.middleware.clickjacking.XFrameOptionsMiddleware',\n]",
         "detail": "mysite.settings",
         "documentation": {}
     },
