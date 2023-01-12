@@ -514,7 +514,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"",
+        "peekOfCode": "USE_I18N = True\nUSE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\n# Default primary key field type",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -523,7 +523,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Default primary key field type",
+        "peekOfCode": "USE_TZ = True\n# Static files (CSS, JavaScript, Images)\n# https://docs.djangoproject.com/en/4.1/howto/static-files/\nSTATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -532,7 +532,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'",
+        "peekOfCode": "STATIC_URL = 'static/'\nSTATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -541,7 +541,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "STATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'",
+        "peekOfCode": "STATIC_ROOT = BASE_DIR/ \"staticfiles\"\nSTATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -550,16 +550,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\nSTATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'",
-        "detail": "mysite.settings",
-        "documentation": {}
-    },
-    {
-        "label": "STATICFILES_STORAGE",
-        "kind": 5,
-        "importPath": "mysite.settings",
-        "description": "mysite.settings",
-        "peekOfCode": "STATICFILES_STORAGE = \"whitenoise.storage.CompressedManifestStaticFilesStorage\"\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True",
+        "peekOfCode": "STATICFILES_DIRS = [\n    BASE_DIR / \"mysite/static\"\n]\n# Default primary key field type\n# https://docs.djangoproject.com/en/4.1/ref/settings/#default-auto-field\nDEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587",
         "detail": "mysite.settings",
         "documentation": {}
     },
