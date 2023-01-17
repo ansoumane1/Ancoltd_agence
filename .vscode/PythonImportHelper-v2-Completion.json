@@ -397,7 +397,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [",
+        "peekOfCode": "BASE_DIR = Path(__file__).resolve().parent.parent\n# Quick-start development settings - unsuitable for production\n# See https://docs.djangoproject.com/en/4.1/howto/deployment/checklist/\n# SECURITY WARNING: keep the secret key used in production secret!\nSECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','ansoucompany.com','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -406,7 +406,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "SECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
+        "peekOfCode": "SECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6'\n# SECURITY WARNING: don't run with debug turned on in production!\nDEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','ansoucompany.com','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -415,7 +415,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
+        "peekOfCode": "DEBUG = False\nALLOWED_HOSTS = ['localhost','127.0.0.1','ansoucompany.com','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -424,7 +424,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "ALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
+        "peekOfCode": "ALLOWED_HOSTS = ['localhost','127.0.0.1','ansoucompany.com','web-production-7fbe.up.railway.app']\n# Application definition\nINSTALLED_APPS = [\n    \"whitenoise.runserver_nostatic\",\n    'django.contrib.admin',\n    'django.contrib.auth',\n    'django.contrib.contenttypes',\n    'django.contrib.sessions',\n    'django.contrib.messages',\n    'django.contrib.staticfiles',",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -559,7 +559,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'\nEMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -568,7 +568,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "EMAIL_HOST = 'smtp.gmail.com'\nEMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -577,7 +577,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "EMAIL_HOST_USER = 'ansoucompany@gmail.com'\nEMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -586,7 +586,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'\nEMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -595,7 +595,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "EMAIL_PORT = 587\nEMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -604,7 +604,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "EMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "EMAIL_USE_TLS = True\nCSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },
@@ -613,7 +613,7 @@
         "kind": 5,
         "importPath": "mysite.settings",
         "description": "mysite.settings",
-        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']",
+        "peekOfCode": "CSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']",
         "detail": "mysite.settings",
         "documentation": {}
     },

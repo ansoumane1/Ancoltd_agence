@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-a#n9gent8^5mxp2!w9@=ns2*ol_)pn%1_f(xd5_38y*se8z%b6
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['localhost','127.0.0.1','web-production-7fbe.up.railway.app']
+ALLOWED_HOSTS = ['localhost','127.0.0.1','ansoucompany.com','web-production-7fbe.up.railway.app']
 
 
 
@@ -147,4 +147,4 @@ EMAIL_HOST_PASSWORD = 'ajvzrrmuuerafkgv'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
 
-CSRF_TRUSTED_ORIGINS = ['https://*.web-production-7fbe.up.railway.app']
+CSRF_TRUSTED_ORIGINS = ['https://*.ansoucompany.com']
